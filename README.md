@@ -14,11 +14,16 @@ git clone https://github.com/that1m8head/speedmacs.git .emacs.d
 Once you're in Emacs, go ahead and hit `C-x C-f ~/.emacs.d/config.el` to check out your config file. Everything to configure is in there.
 
 ## Default key bindings
-`C-c` is your Speedmacs prefix key. All Speedmacs-specific keybinds are here, and can be edited easily in `config.el`.
+`C-c` is your Speedmacs prefix key. All Speedmacs-specific keybinds are here.
+
+Keybinds are present in `init.el`, and may be edited if you wish, though additional keybinds should go in `config.el`.
+
++ `C-=` - `text-scale-increase`  - Increase the font size
++ `C--` - `text-scale-decrease`  - Decrease the font size
++ `<f12>` - `menu-bar-mode` - Toggle menu bar
 + `C-c e` - `evil-mode` - Vim emulation
 + `C-c m` - `hide-mode-line-mode` - Toggle modeline visibility
 + `C-c t` - `load-only-theme` - Change your theme
-+ `<f12>` - `menu-bar-mode` - Toggle menu bar
 + `C-c s` - `scroll-bar-mode` - Toggle scroll bars
 + `C-c w` - `writeroom-mode` - Writeroom mode
 + `C-c f` - `mixed-pitch-mode` - Toggle mixed pitch
