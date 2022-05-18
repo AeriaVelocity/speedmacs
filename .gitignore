@@ -1,11 +1,4 @@
-# Compiled
-*.elc
-
-# Packaging
-.cask
-
-# Backup files
+auto-save-list/
+url/
+*#
 *~
-
-# Undo-tree save-files
-*.~undo-tree
