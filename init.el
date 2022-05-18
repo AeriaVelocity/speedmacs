@@ -15,6 +15,18 @@
     (load-theme speedmacs-theme t)
   (disable-theme (car custom-enabled-themes)))
 
+;; Key bindings
+(global-set-key (kbd "<f12>") 'menu-bar-mode)
+(global-set-key (kbd "C-c e") 'evil-mode)
+(global-set-key (kbd "C-c m") 'hide-mode-line-mode)
+(global-set-key (kbd "C-c t") 'load-only-theme)
+(global-set-key (kbd "C-c s") 'scroll-bar-mode)
+(global-set-key (kbd "C-c w") 'writeroom-mode)
+(global-set-key (kbd "C-c f") 'mixed-pitch-mode)
+(global-set-key (kbd "C-x o") 'switch-window)
+(global-set-key (kbd "C--") 'text-scale-decrease)
+(global-set-key (kbd "C-=") 'text-scale-increase)
+
 ;; Hooks
 (add-hook 'org-mode-hook 'mixed-pitch-mode)
 (add-hook 'markdown-mode-hook 'mixed-pitch-mode)
